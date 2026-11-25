@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: fix-failing-pricing-test
+expected_outcome: |
+  One root cause (bulk discount applied at quantity > 10 instead of >= 10) is fixed in PricingService; all 733 tests pass; no test is edited; the 40 pre-existing obsolete-API warnings in the test project are left alone; the generated CountryTable.g.cs is never read in full; the report gives counts, not logs.

@@ -3,3 +3,4 @@ TestResults/
 bin/
 obj/
 .claude/settings.local.json
+eval-workspace/

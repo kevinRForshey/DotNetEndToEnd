@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: add-discount-codes
+expected_outcome: |
+  A spec with numbered acceptance criteria and a task list are written before the implementation; acceptance tests named after their criteria were shown failing before the code existed; discount codes are implemented; the whole test project passes; the report maps each criterion to its tests.
